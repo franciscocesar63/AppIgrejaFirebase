@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "104252284870",
+    "project_id": "app-igreja-5679a",
+    "storage_bucket": "app-igreja-5679a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104252284870:android:9972f5a1028efb535f5cc7",
+        "android_client_info": {
+          "package_name": "com.example.app_igreja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104252284870-m1708fh7pu1e4vik79l5sf5pq3395uvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH3mVDx1VQmco-eZg1EMtui_fFYE4FVrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104252284870-m1708fh7pu1e4vik79l5sf5pq3395uvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
