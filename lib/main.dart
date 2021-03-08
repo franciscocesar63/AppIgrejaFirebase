@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
     });
 
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Pequenos Grupos - IBR Fé',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
