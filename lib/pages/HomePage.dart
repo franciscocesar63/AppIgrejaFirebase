@@ -1,4 +1,5 @@
 import 'package:app_igreja/pages/estudos.dart';
+import 'package:app_igreja/pages/cifras.dart';
 import 'package:flutter/material.dart';
 
 import 'musicas.dart';
@@ -39,6 +40,27 @@ _body(context) {
                 }),
             Text(
               "Músicas",
+              style: TextStyle(fontSize: 20, color: Colors.white),
+            )
+          ],
+        ),
+        Divider(),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            IconButton(
+                icon: Image.asset("assets/cifra.jpg"),
+                hoverColor: Colors.grey,
+                iconSize: 55,
+                splashRadius: 5,
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => CifrasPage()),
+                  );
+                }),
+            Text(
+              "Cifras",
               style: TextStyle(fontSize: 20, color: Colors.white),
             )
           ],

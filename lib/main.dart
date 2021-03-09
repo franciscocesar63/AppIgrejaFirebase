@@ -1,4 +1,3 @@
-import 'package:app_igreja/pages/HomePage.dart';
 import 'package:app_igreja/pages/SplashPage.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
