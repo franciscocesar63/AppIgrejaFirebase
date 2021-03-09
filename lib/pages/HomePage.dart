@@ -1,4 +1,7 @@
+import 'package:app_igreja/pages/estudos.dart';
 import 'package:flutter/material.dart';
+
+import 'musicas.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -9,13 +12,13 @@ class HomePage extends StatelessWidget {
           image: DecorationImage(
               image: AssetImage("assets/home.jpg"), fit: BoxFit.cover),
         ),
-        child: _body(),
+        child: _body(context),
       ),
     );
   }
 }
 
-_body() {
+_body(context) {
   return Center(
     child: Row(
       mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -29,7 +32,10 @@ _body() {
                 iconSize: 55,
                 splashRadius: 5,
                 onPressed: () {
-                  print("Deu certo");
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => MusicasPage()),
+                  );
                 }),
             Text(
               "Músicas",
@@ -46,7 +52,10 @@ _body() {
                 hoverColor: Colors.grey,
                 iconSize: 55,
                 onPressed: () {
-                  print("Deu certo");
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => EstudosPage()),
+                  );
                 }),
             Text(
               "Estudos",
