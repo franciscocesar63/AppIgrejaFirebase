@@ -1,5 +1,6 @@
 import 'package:app_igreja/pages/estudos.dart';
 import 'package:app_igreja/pages/cifras.dart';
+import 'package:app_igreja/pages/pedidos.dart';
 import 'package:flutter/material.dart';
 
 import 'musicas.dart';
@@ -94,7 +95,10 @@ _body(context) {
                 hoverColor: Colors.grey,
                 iconSize: 65,
                 onPressed: () {
-                  print("Deu certo");
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => PedidosPage()),
+                  );
                 }),
             Text(
               "Pedidos",
